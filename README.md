@@ -1,4 +1,4 @@
-# Химия цветов 
+# Chemistry of flowers
 
 Developed the administrative panel of the project “Chemistry of Flowers” - applications for
 automating the process of flower delivery. The work took place in a team. During the work
@@ -11,6 +11,7 @@ automating the process of flower delivery. The work took place in a team. During
   Statistics include completed orders, revenue, salary, percentage of sales and the total amount of earnings is considered
 
 Login: 0500101010
+
 Password: 0500101010
 
 ![](./img/main.png)
