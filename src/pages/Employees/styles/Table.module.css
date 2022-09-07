@@ -1,0 +1,128 @@
+.table {
+  border-collapse: separate;
+  width: 94%;
+  cursor: pointer;
+
+  margin-left: 3vw;
+  /* text-align: center; */
+  border-spacing: 0 10px;
+  white-space: nowrap;
+
+  margin-top: 1.5rem;
+}
+
+.container {
+  /* margin-bottom: 5rem; */
+  padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 889px) {
+  .container {
+    overflow: scroll;
+  }
+}
+
+.head {
+  padding-top: 2.2vh;
+  /* padding-top: 9px; */
+  /* padding-bottom: 8px; */
+  padding-bottom: 2.3vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #ffffff;
+  font-size: 17px;
+  border: 1px solid #eeeeee;
+  border-style: solid none;
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 22px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.head:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.head:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.d {
+  border: 1px solid #eeeeee;
+  border-style: solid none;
+  padding-top: 1.4vh;
+  padding-bottom: 1.5vh;
+
+  background: blue;
+
+  /* padding-top: 14px;
+  padding-bottom: 14px; */
+
+  background-color: #ffffff;
+  padding-left: 1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.d:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 13px;
+
+  border-bottom-left-radius: 13px;
+}
+
+.d:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+}
+
+.status {
+  border-radius: 19px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 0.3rem;
+
+  width: 10.5rem;
+
+  height: 2rem;
+
+  background: #e1f7c7;
+  border: 1px solid #79cc1c;
+  box-sizing: border-box;
+  border-radius: 19px;
+  color: #6db81a;
+}
+
+.tbody .table__texst:hover {
+
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.9);
+  border-collapse: separate;
+  border-radius: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* Цвет фона при наведении */
+  /* color: #fff; */
+  /* Цвет текста при наведении */
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}

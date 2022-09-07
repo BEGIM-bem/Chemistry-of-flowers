@@ -1,0 +1,156 @@
+.Navbar {
+  background: #e73d53;
+  height: 3.7rem;
+  display: flex;
+
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.BackArrow {
+  display: flex;
+  margin-right: 1vw;
+  margin-top: 0.3vh;
+
+  width: 280%;
+
+  justify-content: flex-end;
+}
+@media screen and (max-width: 1075px) {
+  .BackArrow {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1vh;
+
+    position: relative;
+    right: 19.5rem;
+  }
+  .f {
+    transform: rotate(180deg);
+  }
+}
+
+.Navbar__title {
+  white-space: nowrap;
+
+  cursor: pointer;
+  color: white;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+
+  margin-left: 3rem;
+}
+@media screen and (max-width: 370px) {
+  .Navbar__title {
+    font-size: 22px;
+  }
+  .BackArrow {
+    right: 14.6rem;
+  }
+}
+
+.Navbar__navMenu {
+  display: grid;
+
+  grid-template-columns: repeat(6, auto);
+
+  grid-gap: 3.6vmax;
+  list-style: none;
+
+  align-items: center;
+  cursor: pointer;
+
+  margin-left: 4rem;
+}
+.Navbar__navLinks {
+  color: white;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.Navbar__item .active {
+  padding-bottom: 0.3rem;
+
+  border-bottom: 2px solid white;
+  color: white;
+  font-family: Montserrat;
+  border-radius: 2px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  width: 100%;
+  font-style: normal;
+
+  font-size: 17px;
+}
+
+.menuIcon {
+  display: none;
+
+  margin-top: -0.5vh;
+}
+
+@media screen and (max-width: 1075px) {
+  .Navbar {
+    position: relative;
+  }
+
+  .Navbar__navMenu {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .Navbar__navLinks {
+    color: white;
+    text-align: center;
+  }
+  .Navbar__navLinks:hover {
+    background: #7577fa;
+    border-radius: 0;
+  }
+
+  .Navbar__active {
+    position: absolute;
+    top: 60px;
+    background: #e73d53;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    display: grid;
+    opacity: 1;
+    grid-gap: 3vmax;
+
+    z-index: 1;
+    list-style: none;
+  }
+  .Navbar__title {
+    text-align: center;
+  }
+  .menuIcon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+.Pagination {
+  display: flex;
+}

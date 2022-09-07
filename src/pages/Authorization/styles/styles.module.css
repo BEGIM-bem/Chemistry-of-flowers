@@ -1,0 +1,164 @@
+.PageAuthorization {
+  background: url(../images/Rectangle\ 11.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.auth {
+  padding: 1.2rem 3.3rem 4rem 3.3rem;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 905px) {
+  .auth {
+    padding: 1.2rem 2rem 2rem 2rem;
+  }
+}
+
+.authForm__header {
+  font-family: 'Montserrat';
+  /* font-style: normal; */
+
+  /* font-weight: 500; */
+  font-size: 4vmax;
+  padding-top: -1%;
+  color: #000000;
+  text-align: center;
+}
+
+.authForm__texst_login {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 1.4vmax;
+
+  line-height: 1.5vw;
+
+  padding-left: 3%;
+}
+
+.authForm__texst_password {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 1.4vmax;
+  line-height: 1.5vw;
+  padding-left: 3%;
+
+  color: #000000;
+}
+
+.authForm__item1 {
+  width: 25vmax;
+  height: 13vmin;
+
+  margin-top: 6.5%;
+}
+
+.authForm__item2 {
+  margin-top: 15%;
+
+  width: 25vmax;
+  height: 8vmin;
+  margin-top: 8%;
+
+  border: none;
+
+  position: relative;
+}
+
+.authForm__button_disabled {
+  cursor: pointer;
+  background: #fd3c3c;
+  border: 1px solid #fd2626;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+
+  height: 8vmin;
+  margin-top: 22%;
+  color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7vmax;
+
+  line-height: 2vw;
+}
+
+.disabled2 {
+  background: blue;
+}
+
+.divd {
+  width: 50px;
+  height: 50px;
+  background: #fd2626;
+}
+
+.error {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1vmax;
+
+  line-height: 18px;
+
+  color: #fd3c3c;
+  padding-left: 3%;
+  position: relative;
+  top: 16%;
+}
+
+@media screen and (max-width: 1075px) {
+  .error {
+    position: relative;
+    top: 0%;
+  }
+}
+
+
+.forget {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 22px;
+  position: relative;
+  top: 1.8rem;
+  color: #000000;
+  cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 906px) {
+  .forget {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vmax;
+    line-height: 22px;
+    position: relative;
+    top: 1rem;
+    color: #000000;
+    cursor: pointer;
+
+  }
+
+}

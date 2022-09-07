@@ -1,0 +1,83 @@
+.ButtonNavigations {
+  margin-top: 10vh;
+
+  width: 92vmin;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 13px;
+  margin-left: 3vw;
+  justify-content: space-around;
+}
+
+.add {
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-end;
+  margin-right: 3vw;
+
+  margin-top: -3.4rem;
+}
+
+@media screen and (max-width: 796px) {
+  .add {
+    margin-top: 2rem;
+    display: flex;
+
+    justify-content: flex-end;
+    margin-left: 3vw;
+  }
+}
+
+.add__btn {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  white-space: nowrap;
+  cursor: pointer;
+
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding-left: 0.9vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+
+  color: #000000;
+}
+
+.add__icon {
+  padding-right: 1.1vw;
+}
+
+@media screen and (max-width: 521px) {
+  .add__btn {
+    background: 0;
+    border: 0px;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .add {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 13px;
+  }
+}

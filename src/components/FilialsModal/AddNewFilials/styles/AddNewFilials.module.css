@@ -1,0 +1,262 @@
+.active {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+
+  transform: scale(1);
+  transition: 0.8s;
+}
+
+.modal {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: 1s;
+  transform: scale(1);
+}
+
+.active::-webkit-scrollbar {
+  width: 5px;
+}
+
+.active::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+
+  border-radius: 4px;
+}
+
+.modal__content {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  margin-top: 30vh;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  /* height: 536px; */
+  width: 31rem;
+}
+
+.modal__content_form {
+  margin-top: 4.5rem;
+  /* margin-top: 71px; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* background: red; */
+}
+
+.modal__content_data {
+  /* width: 45%; */
+  padding-bottom: 1.2rem;
+  /* background: rebeccapurple; */
+}
+
+.modal__content_Name {
+  padding-left: 1.2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7a7a7a;
+}
+
+.modal__content_form_input {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 100%;
+  height: 2.8rem;
+
+  padding-left: 1rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.actions {
+  /* text-align: center; */
+  margin-top: 1.5rem;
+
+  /* margin-bottom: 38px; */
+  z-index: 1;
+}
+
+.actions__save {
+  margin-left: 1.3rem;
+  z-index: 1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  background: #e73d53;
+  border: 1px solid #e6334a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+
+  width: 27.5rem;
+
+  height: 2.7rem;
+  margin-bottom: 30px;
+}
+
+.actions__operations {
+  z-index: 1;
+  background: #ffffff;
+  border: 1px solid #e73d53;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 205px;
+  height: 42px;
+  margin-left: 1.3rem;
+  margin-right: 0.9rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #e73d53;
+}
+
+.actions__operations1 {
+  z-index: 1;
+  background: #ffffff;
+  border: 1px solid #e73d53;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 205px;
+  height: 42px;
+  margin-left: 15.5rem;
+  position: relative;
+  top: -2.7rem;
+  /* margin-right: 0.9rem; */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #e73d53;
+}
+
+@media screen and (max-width: 795px) {
+  .actions {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .modal__content {
+    margin-top: 50vh;
+  }
+
+  .actions {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .actions__save {
+    width: 60vmin;
+    z-index: 1;
+
+    height: 2.7rem;
+  }
+
+  .actions__operations {
+    z-index: 1;
+    width: 60vmin;
+    height: 42px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.errorsValid {
+  color: red;
+  margin-left: 1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 18px; */
+}
+
+.DropDownContainer {
+  position: relative;
+  /* z-index: 1;
+  width: 22rem; */
+  z-index: 4;
+
+
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 100%;
+  height: 2.8rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+
+.Arrow {
+  position: relative;
+  left: 24.5rem;
+}
+
+@media screen and (max-width: 568px) {
+  .Arrow {
+    position: relative;
+    left: 95%;
+  }
+
+}
+
+.errors {
+  color: red;
+  padding-left: 1rem;
+  /* font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px; */
+
+}

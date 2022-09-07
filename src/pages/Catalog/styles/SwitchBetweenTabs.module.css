@@ -1,0 +1,446 @@
+.ButtonNavigations {
+  margin-top: 10vh;
+
+  width: 67vmin;
+
+  padding-top: 0rem;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+
+  border-radius: 13px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 13px;
+
+  justify-content: space-around;
+}
+
+.Catalog {
+  background: #f5f5f5;
+}
+
+.search__input {
+  background: #ffffff;
+
+  border: 1px solid #dddcdc;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  width: 50vmin;
+  height: 3rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: black;
+  padding-left: 3rem;
+}
+
+.Tabs__texst {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.search__icon {
+  line-height: 26px;
+  text-align: center;
+  margin-right: -26px;
+
+  position: relative;
+  top: 0.5rem;
+  left: 0.8rem;
+  z-index: 0;
+  float: left;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #9e9e9e;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #9e9e9e;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #9e9e9e;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #9e9e9e;
+}
+
+.input {
+  border: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 9rem;
+  color: #000000;
+  position: relative;
+  top: 0.1em;
+}
+
+.DropDownContainerSalary {
+  width: 14rem;
+  height: 3rem;
+  border: 1px solid #dddcdc;
+  border-radius: 10px;
+
+  position: relative;
+  margin-left: 0.2rem;
+
+  background: white;
+}
+
+.DropDownContainerFilter {
+  width: 3rem;
+  height: 2.9rem;
+  margin-left: 4.5rem;
+
+  background: white;
+
+  border: 1px solid #dddcdc;
+  border-radius: 13px;
+}
+
+.DropDownHeader {
+  padding: 0.6em 1em 0.4em 0em;
+
+  font-weight: 500;
+  font-size: 1.3rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ALL {
+  display: flex;
+
+  margin-left: 3.2vw;
+  flex-wrap: wrap;
+
+  align-items: flex-end;
+}
+
+
+
+
+
+.Arrow {
+  position: relative;
+  left: 12rem;
+  cursor: pointer;
+
+  display: inline-block;
+}
+
+.treePoint {
+  margin-top: -1.5rem;
+  position: relative;
+  cursor: pointer;
+  top: -1rem;
+  /* z-index: 1; */
+  width: 29px;
+  /* background: #e73d53; */
+  margin-left: 12.5rem;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background: #ffffff;
+  min-width: 10rem;
+  height: 84px;
+  border: 1px solid #dddcdc;
+  box-sizing: border-box;
+  border-radius: 9px;
+  margin-left: 2rem;
+  /* margin-left: 5rem; */
+  z-index: 1;
+
+  margin-top: -2rem;
+}
+
+
+.treePoint:hover .dropdownContent {
+  display: block;
+  /* display: inline-block; */
+}
+
+
+.DropDownListContainer1 {
+  width: 15rem;
+
+  cursor: pointer;
+  margin-left: -12rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background: #fcfcfd;
+  position: relative;
+  border: 1px solid #dddcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.ListItemSmenaSalary {
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1.2em;
+  margin-left: 2rem;
+
+  white-space: nowrap;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 1em;
+
+  color: #000000;
+}
+
+.DropDownHeader1 {
+  font-weight: 500;
+
+  font-size: 1.3rem;
+  background: #e6334a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.DropDownHeader__icon {
+  margin-top: -0.2rem;
+  margin-left: 0.3rem;
+}
+
+.dropdownContent__button {
+  color: black;
+  font-family: Montserrat;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  background: 0;
+  border: 0;
+
+  padding-top: 0.7rem;
+  padding-left: 0.6rem;
+}
+
+
+.addNewCatalogs {
+  cursor: pointer;
+  background: #e73d53;
+  border: 1px solid #e8455a;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 12.8rem;
+  position: sticky;
+  bottom: 0;
+  height: 6.5vh;
+  color: white;
+  text-align: center;
+  margin-left: 0.5rem;
+  padding-bottom: 0.7rem;
+  margin-top: -4.5rem;
+
+  font-family: Montserrat;
+  font-style: 500;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+/* .addNew {
+
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  background: white;
+} */
+
+.addNewCatalogsIcon {
+  position: relative;
+  top: 0.5rem;
+  left: 0.4rem;
+}
+
+.CategoryNewAdd__input {
+  width: 12.8rem;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 13px;
+  margin-left: 0.5rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  padding-left: 0.7rem;
+  color: black;
+}
+
+.categoryNewAdd__button {
+  width: 12.8rem;
+  height: 40px;
+  margin-left: 0.5rem;
+  margin-top: 4px;
+
+  background: rgba(231, 61, 83, 0.5);
+  border: 1px solid rgba(230, 51, 74, 0.1);
+  box-sizing: border-box;
+  border-radius: 13px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.categoryNewAdd__button1 {
+  width: 12.8rem;
+  height: 40px;
+  margin-left: 0.5rem;
+  margin-top: 4px;
+
+  background: #e73d53;
+  border: 1px solid #e6334a;
+  box-sizing: border-box;
+  border-radius: 13px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.AddFlowers_btn {
+  background: #ffffff;
+  border: 1px solid #dddcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 0.3rem;
+  height: 2.9rem;
+  /* position: relative; */
+  width: 9rem;
+
+  /* padding-bottom: 0.6rem; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+
+  line-height: 22px;
+
+}
+
+.AddFlowers_icon {
+
+  /* padding-right: 0.9rem; */
+  /* padding-left: 1rem; */
+  height: 1.1rem;
+  width: 1.1rem;
+  font-size: 2rem;
+  position: relative;
+  left: 0.7rem;
+
+
+  top: 0.2rem;
+}
+
+@media screen and (max-width: 1221px) {
+  .DropDownContainerFilter {
+    margin-left: 0rem;
+    margin-left: 90vw;
+    margin-top: 1vh;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .AddFlowers_btn {
+    margin-top: 1vh;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .DropDownContainerSalary {
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+  }
+
+  .DropDownContainerFilter {
+    margin-left: 88vw;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .search {
+    margin-top: 1vh;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+
+  .search__input {
+    margin-right: 0.5rem;
+    margin-left: -0.3rem;
+  }
+
+  .DropDownContainerFilter {
+    margin-left: 85vw;
+    margin-top: -15vh;
+  }
+}
+
+@media screen and (max-width: 489px) {
+  .DropDownContainerFilter {
+    margin-top: 0vh;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .DropDownContainerFilter {
+    margin-left: 80vw;
+    margin-top: -10vh;
+  }
+
+  .DropDownContainerSalary {
+    margin-top: 1vh;
+  }
+
+  .search__input {
+    width: 85vw;
+  }
+}

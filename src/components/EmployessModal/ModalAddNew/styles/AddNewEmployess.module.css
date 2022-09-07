@@ -1,0 +1,535 @@
+.active {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  transform: scale(1);
+  transition: 0.8s;
+}
+
+.modal {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 1s;
+  transform: scale(1);
+
+}
+
+.active::-webkit-scrollbar {
+  width: 5px;
+}
+
+.active::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+
+  border-radius: 4px;
+}
+
+.modal__content {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  margin-top: 75vh;
+  /* margin-bottom: 3rem; */
+
+  width: 51rem;
+}
+
+
+
+.DropDownContainer {
+  width: 20.7rem;
+  z-index: 4;
+  height: 3rem;
+  border: 1px solid #eeeeee;
+  border-radius: 13px;
+
+}
+
+
+
+.modal__content_data2 {
+
+  width: 22rem;
+
+  position: absolute;
+  top: 15.5rem;
+  /* top: -28rem; */
+
+  left: 35.9rem;
+
+}
+
+
+
+
+
+.modal__content_Name1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #7A7A7A;
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+  position: relative;
+  /* z-index: 2; */
+  /* top: -28.7rem; */
+  top: -28.5rem;
+  left: 26rem;
+
+}
+
+.modal__content_Name2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #7A7A7A;
+  padding-left: 1rem;
+  padding-bottom: 0.2rem;
+  position: relative;
+  z-index: 1;
+
+
+
+
+}
+
+.DropDownContainer {
+  cursor: pointer;
+  width: 20.7rem;
+  height: 3rem;
+  border: 1px solid #eeeeee;
+  border-radius: 13px;
+
+  position: relative;
+  z-index: 5;
+  top: -28.5rem;
+  left: 26rem;
+}
+
+.modal__content_Name2 {
+
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.DropDownContainerSmena {
+  width: 20.7rem;
+  height: 3rem;
+  position: relative;
+  z-index: 1;
+
+  border: 1px solid #eeeeee;
+  border-radius: 13px;
+
+}
+
+.modal__content_data3 {
+
+  position: relative;
+  top: -21.5rem;
+  left: 26rem;
+  z-index: 1;
+
+
+
+}
+
+.humnanIcon {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+
+  /* text-align: center; */
+  margin: auto;
+  margin-top: 6vh;
+}
+
+.modal__content_photo {
+  border: 2px solid #eeeeee;
+  box-sizing: border-box;
+  width: 11.6rem;
+  height: 11.5rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 2rem;
+  /* text-align: center; */
+  /* padding-top: 32px; */
+}
+
+.modal__content_photo_texst {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  position: relative;
+  top: 40px;
+  left: 10px;
+
+  color: #e73d53;
+}
+
+.modal__content_photo_texst1 {
+  position: relative;
+  top: -30px;
+  font-size: 25px;
+}
+
+.modal__content_crossIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -11rem;
+  padding-right: 1.4rem;
+}
+
+.modal__content_form {
+  margin-top: 12rem;
+  margin-left: 2rem;
+}
+
+.modal__content_form_input {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 20.7rem;
+  height: 3rem;
+  cursor: pointer;
+
+  padding-left: 1rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: black;
+}
+
+.modal__content_Name {
+  padding-left: 1.2rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+
+  color: #7a7a7a;
+}
+
+.modal__content_data {
+  width: 45%;
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.Arrow {
+  position: relative;
+  left: 18.5rem;
+}
+
+.time {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -1.5rem;
+  right: 0.9rem;
+}
+
+.ChooseStatus {
+  position: relative;
+  top: -13.2rem;
+
+  width: 45%;
+  left: 26rem;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+
+  color: #000000;
+}
+
+input[type="radio"],
+label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 3px solid black;
+}
+
+input[type="radio"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
+
+.actions {
+  /* text-align: center; */
+  margin-top: -11rem;
+  /* margin-bottom: 50px; */
+  cursor: pointer;
+  /* background: #7a7a7a; */
+}
+
+.actions__save {
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  background: #e73d53;
+  border: 1px solid #e6334a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: white;
+
+  width: 27.5rem;
+
+  height: 2.7rem;
+  margin-bottom: 10px;
+}
+
+.actions__operations {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e73d53;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 205px;
+  height: 42px;
+  margin-left: 11.5rem;
+  margin-right: 0.9rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #e73d53;
+}
+
+.actions__operations1 {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e73d53;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 205px;
+  height: 42px;
+  margin-left: 26rem;
+  position: relative;
+  top: -2.6rem;
+  margin-right: 0.9rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #e73d53;
+}
+
+@media screen and (max-width: 795px) {
+  .modal__content_data2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 9rem;
+    cursor: pointer;
+  }
+
+  .modal__content {
+    margin-top: 230vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .modal__content_Name1 {
+    position: relative;
+    top: -0;
+    left: 0;
+  }
+
+  .DropDownContainer {
+    position: relative;
+    top: -0;
+    left: 0;
+
+
+  }
+
+  .modal__content_data3 {
+    position: relative;
+    top: 0.5rem;
+    left: 0;
+    /* margin-bottom: 6.2rem; */
+  }
+
+  .ChooseStatus {
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    margin-bottom: 95px;
+    cursor: pointer;
+  }
+
+
+  /* 
+  .actions__operations {
+    margin: 0 auto;
+    display: block;
+  } */
+
+
+  .actions {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+
+  .actions__operations {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+
+
+  .actions__operations1 {
+
+    margin-left: 0rem;
+    position: relative;
+    top: 0rem;
+    margin-right: 0rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 0.9rem;
+  }
+
+
+}
+
+@media screen and (max-width: 528px) {
+  .actions__save {
+    width: 60vmin;
+
+    height: 2.7rem;
+  }
+
+  /* .actions__operations {
+    width: 60vmin;
+    height: 42px;
+    margin-bottom: 1.5rem;
+  } */
+}
+
+@media screen and (max-width: 434px) {
+  .modal__content_form_input {
+    width: 80vmin;
+    height: 3rem;
+  }
+}
+
+.uploadPhoto {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.errorsStatus {
+  color: red;
+  margin-top: 0.8rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+}
+
+.errors {
+  color: red;
+
+  width: 6rem;
+  margin-top: 0.2rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+}

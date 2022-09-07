@@ -1,0 +1,168 @@
+.content {
+  border-collapse: separate;
+
+  display: flex;
+  /* justify-content: center; */
+
+
+  /* padding-bottom: 10rem; */
+  margin-top: 1.5rem;
+  /* margin-left: 2rem; */
+
+  flex-wrap: wrap;
+
+  padding-left: 2.1rem;
+}
+
+@media screen and (max-width: 1075px) {
+  .content {
+    border-collapse: separate;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.5rem;
+
+    flex-wrap: wrap;
+
+    padding-left: 2.1rem;
+  }
+
+}
+
+.conteinerData {
+  cursor: pointer;
+  width: 14rem;
+
+
+  padding-bottom: 0.5rem;
+
+  border: 2px solid #eeeeee;
+  box-sizing: border-box;
+
+  border-radius: 8px;
+
+  margin-bottom: 3.3vw;
+
+  margin-right: 2.5rem;
+}
+
+.contentData__photo {
+  /* width: 13.9rem; */
+  /*height: 10rem; */
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+
+  height: 213px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.conteinerData__icon {
+  position: relative;
+  top: -2.2rem;
+  left: 0.5rem;
+  z-index: 0;
+}
+
+.conteinerData__title {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 2rem;
+  position: relative;
+  top: 0.3rem;
+  left: -1.5rem;
+
+  color: #000000;
+}
+
+
+.conteinerData__filials {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+
+  padding-left: 0.5rem;
+  position: relative;
+  top: 0.6rem;
+  /* top: 1rem; */
+
+  color: #7a7a7a;
+}
+
+.conteinerData__texstLifeFlowers {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+
+  padding-left: 0.5rem;
+  top: 0.7rem;
+  position: relative;
+  /* top: -0.5rem; */
+  line-height: 16px;
+
+  color: #7a7a7a;
+}
+
+.conteinerData__btn {
+  background: #f7cc05;
+  border-radius: 10px;
+  border: 0;
+  width: 144px;
+  height: 32px;
+  margin: 0rem auto;
+
+  display: block;
+  position: relative;
+  top: 1.3rem;
+  margin-bottom: 1.5rem;
+
+
+
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.conteinerData__full {
+  margin-top: 1.5rem;
+}
+
+.NotFind {
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  padding-top: 5rem;
+  /* identical to box height */
+
+  color: #bdbdbd;
+}
+
+.conteinerData__texstAdress {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+
+  padding-left: 0.5rem;
+  position: relative;
+  /* top: -0.8rem; */
+  /* line-height: px; */
+
+  color: #7a7a7a;
+}
