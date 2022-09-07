@@ -10,6 +10,9 @@ automating the process of flower delivery. The work took place in a team. During
 - Implemented statistics for all employees.
   Statistics include completed orders, revenue, salary, percentage of sales and the total amount of earnings is considered
 
+Login: 0500101010
+Password: 0500101010
+
 ![](./img/main.png)
 
 __Techonology__
@@ -31,3 +34,18 @@ __Install__
 
 Use the git to clone the project to your local machine.
 
+    cd clone https://github.com/BEGIM-bem/Chemistry-of-flowers.git
+
+Navigate to the extracted folder
+
+    cd Chemistry-of-flowers
+
+Install the dependencies and modules
+  
+     npm install
+
+
+__Usage__
+
+    npm run dev
+    
