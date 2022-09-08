@@ -11,9 +11,11 @@ automating the process of flower delivery. The work took place in a team. During
   Statistics include completed orders, revenue, salary, percentage of sales and the total amount of earnings is considered
 
 Login: 0500101010
-Password: 0500101010
+Password: 0500101010 (Test)
 
-![](./img/main.png)
+![https://admin-panel-flowers.herokuapp.com/authorization](./img/main.png)
+
+Demo: https://admin-panel-flowers.herokuapp.com/authorization
 
 __Techonology__
 
