@@ -38,7 +38,7 @@ __Install__
 
 Use the git to clone the project to your local machine.
 
-    git clone https://github.com/BEGIM-bem/Chemistry-of-flowers.git
+git clone https://github.com/BEGIM-bem/Chemistry-of-flowers.git
 
 Navigate to the extracted folder
 
