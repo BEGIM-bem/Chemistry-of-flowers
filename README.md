@@ -15,6 +15,8 @@ Password: 0500101010 (Test)
 
 ![https://admin-panel-flowers.herokuapp.com/authorization](./img/main.png)
 
+
+
 Demo: https://admin-panel-flowers.herokuapp.com/authorization
 
 __Techonology__
@@ -36,7 +38,7 @@ __Install__
 
 Use the git to clone the project to your local machine.
 
-    cd clone https://github.com/BEGIM-bem/Chemistry-of-flowers.git
+    git clone https://github.com/BEGIM-bem/Chemistry-of-flowers.git
 
 Navigate to the extracted folder
 
