@@ -8,8 +8,8 @@ import { Field, Form, Formik } from "formik";
 import { useDispatch, useSelector } from 'react-redux';
 import { EditFlowers, DeleteFlowers } from '../../../Logica/api/Catalog'
 import * as Yup from 'yup';
+import image from './icons/image.jpg'
 //Цветочки
-
 
 
 
@@ -78,7 +78,7 @@ function AcortimentProduct({ active, setActive, content }) {
             <Form>
 
               <div className={styles.modal__content_photo}>
-                <img src={values.image} alt='Изображение отсутствует'
+                <img src={image} alt='Изображение отсутствует'
                   className={styles.modal__content_photoFlowers} />
               </div>
 

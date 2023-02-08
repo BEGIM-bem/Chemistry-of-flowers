@@ -22,7 +22,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { Old_filter, PoolFilter, ExpensiveFilter, YongFilter } from '../../Logica/reducers/userReducer'
 
-
+import images from './icon/images.jfif'
 
 function Cat() {
   const dispatch = useDispatch();
@@ -178,6 +178,7 @@ function Cat() {
                 <img src={ArrowDown} className={stylesTabs.Arrow} alt='Not find ArrowTopIcon' />}
               {<input defaultValue='Категории' readOnly className={stylesTabs.input} />}
             </div >
+
             {
               isOpenSalary && (
                 <div>
@@ -276,7 +277,8 @@ function Cat() {
                         className={stylesTabs.addNewCatalogsIcon} src={AddNewCatalogIcon} /> </button>
                       :
                       <button onClick={() => setCategoryNewAdd(true)} className={stylesTabs.addNewCatalogs}>
-                        Добавить категорию <img alt='not find icon' className={stylesTabs.addNewCatalogsIcon} src={AddNewCatalogIcon} /> </button>}
+                        Добавить категорию <img alt='not find icon' className={stylesTabs.addNewCatalogsIcon}
+                          src={AddNewCatalogIcon} /> </button>}
 
 
                     {isCategoryNewAdd ? <div>
@@ -351,7 +353,9 @@ function Cat() {
               user.flowers.map(item => (
                 <div onClick={() => setModalCatalogSection({ isOpen: true, content: item })}
                   className={stylesContent.conteinerData} key={item.id} >
-                  <img src={item.image} alt='Not find Icon' className={stylesContent.contentData__photo} />
+                  <img src={images} alt='Not find Icon' className={stylesContent.contentData__photo} /> :
+
+
                   <div>
                     <h1 className={stylesContent.conteinerData__title}>{item.name}</h1>
                     <p className={stylesContent.conteinerData__filials}>{item.grade} </p>

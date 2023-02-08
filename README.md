@@ -17,7 +17,6 @@ Password: 0500101010 (Test)
 
 
 
-Demo: https://admin-panel-flowers.herokuapp.com/authorization
 
 __Techonology__
 
